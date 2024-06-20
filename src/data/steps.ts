@@ -6,10 +6,10 @@ interface Step {
     content: string;
 }
 
-export const Steps: Step[] = [
+export const steps: Step[] = [
     {
         id: 1,
-        url: "/step-1",
+        url: "/step-one",
         imageUrl: '/images/step1.jpg',
         heading: 'Proficiency Levels?',
         content:
@@ -17,7 +17,7 @@ export const Steps: Step[] = [
     },
     {
         id: 2,
-        url: '/step-2',
+        url: '/step-two',
         imageUrl: '/images/step2.jpg',
         heading: 'Competency Score Gap Analysis',
         content:
@@ -25,7 +25,7 @@ export const Steps: Step[] = [
     },
     {
         id: 3,
-        url: "/emotional-factors",
+        url: "/step-three",
         imageUrl: '/images/step3.jpg',
         heading: 'Building Investor-Trader Bonds',
         content:
@@ -33,7 +33,7 @@ export const Steps: Step[] = [
     },
     {
         id: 4,
-        url: "/step-4",
+        url: "/step-four",
         imageUrl: '/images/step4.jpg',
         heading: 'Building Investor-Trader Bonds',
         content:

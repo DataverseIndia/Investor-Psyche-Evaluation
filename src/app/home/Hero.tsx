@@ -38,8 +38,7 @@ const Hero: FC = () => {
                     funds
                 </h1>
                 <h1 className="text-center phone:text-sm lg:text-lg text-neutral-500 font-medium phone:w-[90%] lg:w-[50%] phone:-mt-3 lg:-mt-5">
-                    Seeking and building strategic alliances and collaborative arrangements through
-                    partnerships to advance the objectives of the organization.
+                    Investor Psyche Evaluation is an advanced tool designed to decode the psychological patterns of investors, offering comprehensive insights to enhance trading strategies and decision-making processes. Our unique approach involves a structured four-step process to guide and support our customers in understanding and leveraging investor psychology effectively.
                 </h1>
                 <div className="phone:w-[90%] lg:w-[30%] flex relative phone:mt-2 lg:mt-0">
                     {isAboveSmallScreens ? (
