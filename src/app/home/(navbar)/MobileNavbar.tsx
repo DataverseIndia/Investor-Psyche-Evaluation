@@ -12,9 +12,10 @@ interface MobileNavLinkProps {
 
 const navLinks = [
   { title: "Home", link: "/" },
-  { title: "Investor Psychology", link: "/investor-psychology" },
-  { title: "Cognitive Bias", link: "/cognitive-bias" },
-  { title: "Emotional Factors", link: "/emotional-factors" },
+  { title: "Step One", link: "/step-one" },
+  { title: "Step Two", link: "/step-two" },
+  { title: "Step Three", link: "/step-three" },
+  { title: "Step Four", link: "/step-four" },
   { title: "Resources", link: "/resources" },
 ];
 const MobileNavbar = () => {
