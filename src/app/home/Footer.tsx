@@ -46,25 +46,14 @@ const Footer: FC = () => {
                                 </div>
                             </div>
                             <div className="flex phone:justify-center lg:justify-between phone:gap-7 lg:gap-10 phone:mt-5 tablet:mt-0">
-                                {/* <div>
-                                    <h3 className="text-lg font-semibold text-neutral-500 phone:mb-1 lg:mb-1 text-center">
-                                        Company
-                                    </h3>
-                                    <ul className="text-neutral-800 text-center">
-                                        <li>
-                                            <Link to='/contact-us' className='underline'>Contact</Link>
-                                        </li>
-                                    </ul>
-                                </div> */}
                                 <div>
-                                    <h3 className="text-lg font-semibold text-neutral-500 phone:mb-1 lg:mb-1 text-center">
-                                        Resources
+                                    <h3 className="text-lg font-semibold text-neutral-500 phone:mb-1 lg:mb-1 text-center text-nowrap">
+                                        Utility Pages
                                     </h3>
-                                    <ul className="text-neutral-800 text-center">
-                                        <li>
-                                            <Link to="/" className='underline'>Blog</Link>
-                                        </li>
-                                    </ul>
+                                    <div className="flex flex-col text-neutral-800 text-center">
+                                        <Link to="/resources" className='underline'>Resources</Link>
+                                        <Link to="/privacy-policy" className='underline'>Privacy Policy</Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>

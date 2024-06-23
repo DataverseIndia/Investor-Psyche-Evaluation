@@ -10,6 +10,7 @@ import StepOne from '@/app/steps/step-1';
 import StepTwo from '@/app/steps/step-2';
 import StepFour from '@/app/steps/step-4';
 import StepThree from '@/app/steps/step-3';
+import PrivacyPolicy from '@/app/extra/privacy-policy';
 
 const AppRoutes: FC = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoutes: FC = () => {
       <Route path="/" element={<Home />} />
       <Route path='*' element={<NotFound />} />
       <Route path="/contact-us" element={<ContactUs />} />
+      <Route path='/privacy-policy' element={<PrivacyPolicy />} />
       <Route path="/inquiries" element={<Inquiries />} />
       <Route path='/resources' element={<ForexInvestorBehaviourProfileReport />} />
       <Route path="/investor-psychology" element={<InvestorPsychology />} />
